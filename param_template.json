@@ -1,0 +1,9 @@
+{
+  "parameters": [
+    { "name": "nPoints", "type": "int", "default": 50000, "label": "Number of points (Scatter)" },
+    { "name": "useScatter", "type": "bool", "default": true, "label": "Use Scatter?" },
+    { "name": "exportPath", "type": "string", "default": "C:/temp/pointcloud.ply", "label": "Export PLY Path" },
+    { "name": "spriteSize", "type": "float", "default": 5.0, "label": "Sprite Size" },
+    { "name": "useColor", "type": "bool", "default": true, "label": "Use Vertex Color" }
+  ]
+}
